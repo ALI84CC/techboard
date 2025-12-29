@@ -1,20 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+ function FormularioDeEvento(){
+ return(
+  <form className='form-evento'>
+    <h2>
+      Preencha para criar um Evento
+    </h2>
+    <fieldset>
+      <label>Qual o nome do eu evento</label>
+      <input type='text' id='nome'/>
+    </fieldset>
+  </form>
+  )
+}
 
+function App() {
   return (
-    <>
-      <header>
-        <img src='/logo.png' />
-      </header>
-      <section>
-        <img src='/banner.png' />
-      </section>
-    </>
+    <main>
+        <header>
+          <img src='Logo.png' />
+        </header>
+        <section>
+          <img src='banner.png' />
+        </section>
+        <FormularioDeEvento />
+    </main>     
   )
 }
 
