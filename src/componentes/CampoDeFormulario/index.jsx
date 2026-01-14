@@ -1,8 +1,8 @@
-import { Children } from "react";
+import "./CampoDeFormulario.estilos.css"
 
-export function campoDeFormulario ({Children}){
+export function CampoDeFormulario({Children}){
     return(
-        <fieldset>
+        <fieldset className="campo-form">
             {Children}
         </fieldset>
     )

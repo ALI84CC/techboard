@@ -1,8 +1,8 @@
-// Exemplo de como o arquivo index.JSX pode ficar
-import React from 'react';
+import './campo-entrada.estilos.css'
+
 
 export function CampoDeEntrada (props){
-  return <input {...props} />
+  return <input {...props} className='campo-entrada-form'/>
   
 };
 

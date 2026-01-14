@@ -1,8 +1,8 @@
-import { Children } from "react";
+import './titulo-formulario.estilos.css'
 
-export function tituloFormulario({Children}){
+export function TituloFormulario({Children}){
     return(
-        <h2>
+        <h2 className='titulo-form'>
             {Children}
         </h2>
     )
